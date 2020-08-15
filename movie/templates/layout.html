@@ -20,7 +20,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src= "{{ "/static/images/avatar.png" }} " alt="" /></span>    
+							
 							
 							
 						</div>
@@ -28,6 +28,7 @@
 					<!-- Nav -->
 					<nav id ="nav">
 						<ul>
+							<li><span class="image avatar48"><img src= "{{ "/static/images/avatar.png" }}"   style="border-radius: 50%;"alt="" /></span>    </li>
 							<li><a href="{{ url_for('home') }}">Home</a></li>
 							<li><a href="{{ url_for('about') }}">About</a></li>
 							{% if current_user.is_authenticated %}
