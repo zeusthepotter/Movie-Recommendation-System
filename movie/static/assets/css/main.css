@@ -155,8 +155,8 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: rgba(47, 48, 54, 0.658);
+		font-weight: 400;
+		color: black;
 	}
 
 	em, i {
